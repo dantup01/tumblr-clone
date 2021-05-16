@@ -40,6 +40,7 @@ end
 group :test do
   gem "formulaic"
   gem "launchy"
+  gem "rspec"
   gem "timecop"
   gem "webmock"
 end

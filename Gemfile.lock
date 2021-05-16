@@ -242,6 +242,10 @@ GEM
       actionpack (>= 5.0)
       railties (>= 5.0)
     rexml (3.2.5)
+    rspec (3.9.0)
+      rspec-core (~> 3.9.0)
+      rspec-expectations (~> 3.9.0)
+      rspec-mocks (~> 3.9.0)
     rspec-core (3.9.3)
       rspec-support (~> 3.9.3)
     rspec-expectations (3.9.4)
@@ -388,6 +392,7 @@ DEPENDENCIES
   rack-timeout
   rails (~> 6.0.0)
   recipient_interceptor
+  rspec
   rspec-rails (~> 3.6)
   sassc-rails
   shoulda-matchers
